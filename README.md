@@ -10,6 +10,8 @@ Data/operation abstraction design:
 
 I got this dataset from [Kaggle ](https://www.kaggle.com/code/duttadebadri/gun-violence-in-usa-insights-forecast) as a csv file. When I first opened it, there were many columns that contained unnecessary colons or dashes, so I had to utilize some split funtions in order to correctly count some of the variables. I also had to convert some of the date values to columns in order to create some of the graphs. The data is from January of 2013 until March of 2018, however upon doing some of the initial counts, i found that both 2013 and 2018 had much less entries than the other years so I decided to remove those years from the charts.
 
+NOTE: The dataset was over 100mb so I was unable to include it in the repository, to use the data, follow the link and place the downloaded file into the 'Data' folder in the repository. Then navigate to your IDE and run streamlit.
+
 Future work:
 
 I would have loved to include more of a gender comparison in future updates.
