@@ -92,7 +92,7 @@ if selected_year == "Total":
       colorbar_title = "Thousands",
   ))
   totalfig.update_layout(
-      title_text = '2011 US Agriculture Exports by State',
+      title_text = 'Gun Violence incidents by State',
       geo = dict(
           scope='usa',
           projection=go.layout.geo.Projection(type = 'albers usa'),
@@ -111,10 +111,10 @@ else:
     z = map_data['z'], 
     locationmode = 'USA-states', 
     colorscale = 'Ylorrd',
-    colorbar_title = "Millions USD",
+    colorbar_title = "Thousands",
   ))
   totalfig.update_layout(
-      title_text = '2011 US Agriculture Exports by State',
+      title_text = 'Gun Violence incidents by State',
       geo = dict(
           scope='usa',
           projection=go.layout.geo.Projection(type = 'albers usa'),
